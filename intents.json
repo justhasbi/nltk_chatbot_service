@@ -1,0 +1,85 @@
+{
+  "intents": [
+    {
+      "tag": "sapaan",
+      "patterns": ["halo", "hai", "selamat pagi", "selamat siang", "permisi", "assalamualaikum", "hi kak"],
+      "responses": ["Halo! Saya asisten Batik TrustYou. Ada yang bisa saya bantu seputar produk, ukuran, pengiriman, atau retur?"]
+    },
+    {
+      "tag": "info_produk",
+      "patterns": [
+        "produk apa saja", "batik apa yang dijual", "ada batik tulis",
+        "bahan kainnya apa", "motif apa saja", "batik cap ada?",
+        "harga berapa", "apakah produk ready", "stok masih ada?",
+        "batik pria ada", "batik wanita ada"
+      ],
+      "responses": [
+        "Kami menjual batik tulis, cap, dan print untuk pria maupun wanita. Anda bisa lihat koleksi lengkap beserta harga dan stok di halaman Produk. Ada motif tertentu yang dicari?"
+      ]
+    },
+    {
+      "tag": "operasional",
+      "patterns": [
+        "jam buka", "kapan buka", "lokasi toko dimana", "alamat toko",
+        "cara pesan", "bagaimana cara order", "metode pembayaran apa",
+        "bisa bayar pakai apa", "customer service jam berapa"
+      ],
+      "responses": [
+        "Toko online kami buka 24 jam. Pemesanan lewat website: pilih produk, masukkan ukuran ke keranjang, lalu checkout (perlu login). Pembayaran bisa lewat transfer bank dan e-wallet. Admin melayani pukul 08.00-20.00 WIB."
+      ]
+    },
+    {
+      "tag": "pengiriman",
+      "patterns": [
+        "ongkos kirim berapa", "kirim pakai apa", "ekspedisi apa saja",
+        "berapa lama sampai", "estimasi pengiriman", "bisa kirim ke luar kota",
+        "kirim ke luar negeri bisa", "apakah ada gratis ongkir"
+      ],
+      "responses": [
+        "Kami mengirim ke seluruh Indonesia via JNE, J&T, dan SiCepat. Estimasi 2-5 hari kerja tergantung tujuan. Ongkir dihitung otomatis saat checkout berdasarkan alamat Anda."
+      ]
+    },
+    {
+      "tag": "retur",
+      "patterns": [
+        "cara retur", "barang rusak boleh tukar", "kebijakan pengembalian",
+        "salah ukuran bisa tukar", "produk cacat gimana", "bisa refund",
+        "garansi produk"
+      ],
+      "responses": [
+        "Retur/tukar bisa diajukan maksimal 3 hari setelah barang diterima, dengan syarat produk belum dipakai dan label masih utuh. Untuk barang cacat produksi, kami ganti baru. Hubungi admin dengan menyertakan nomor pesanan dan foto produk."
+      ]
+    },
+    {
+      "tag": "rekomendasi_ukuran",
+      "patterns": [
+        "ukuran apa untuk saya", "rekomendasi ukuran", "size chart",
+        "tinggi 170 berat 65 ukuran berapa", "saya tinggi berat ukuran apa",
+        "ukuran yang pas", "cocok ukuran apa"
+      ],
+      "responses": ["Boleh info tinggi (cm) dan berat (kg) badan Anda? Contoh: tinggi 165 berat 60."]
+    },
+    {
+      "tag": "status_pengiriman",
+      "patterns": [
+        "status pesanan saya", "pesanan saya sudah dikirim belum",
+        "lacak pesanan", "dimana barang saya", "nomor resi saya",
+        "kapan barang sampai", "cek pengiriman"
+      ],
+      "responses": ["Saya cek status pesanan Anda ya."]
+    },
+    {
+      "tag": "hubungi_admin",
+      "patterns": [
+        "mau bicara dengan admin", "hubungkan ke cs", "chat manusia",
+        "sambungkan ke admin", "saya mau tanya admin", "customer service"
+      ],
+      "responses": ["Baik, saya hubungkan Anda ke admin ya."]
+    },
+    {
+      "tag": "terima_kasih",
+      "patterns": ["terima kasih", "makasih", "thanks", "oke sip", "baik terima kasih"],
+      "responses": ["Sama-sama! Senang bisa membantu. Ada lagi yang bisa saya bantu?"]
+    }
+  ]
+}
