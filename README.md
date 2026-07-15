@@ -14,7 +14,7 @@ python -c "import nltk; nltk.download('punkt'); nltk.download('punkt_tab')"
 python train.py
 
 # Running service chatbot
-uvicorn main:app --port 8001 --reload
+uvicorn main:app --port 8088 --reload
 ```
 
 Test service:
